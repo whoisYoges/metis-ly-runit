@@ -17,7 +17,6 @@ package() {
 	install -Dm754 "${srcdir}/$pkgname/metis-ly/run" "${pkgdir}/etc/runit/sv/ly/run"
 	install -Dm754 "${srcdir}/$pkgname/metis-ly/conf" "${pkgdir}/etc/runit/sv/ly/conf"
 	install -Dm754 "${srcdir}/$pkgname/metis-ly/finish" "${pkgdir}/etc/runit/sv/ly/finish"
-	install -Dm644 "${srcdir}/$pkgname/metis-ly/ly" "${pkgdir}/etc/pam.d/ly"
 }
 
 pkgver() {
