@@ -6,9 +6,9 @@ if [ -x /sbin/agetty -o -x /bin/agetty ]; then
 fi
 
 BAUD_RATE=38400
-TERM_NAME=metis
+TERM_NAME=linux
 
 StandardInput=tty
-TTYPath=/dev/tty2
+TTYPath=/dev/tty1
 TTYReset=yes
 TTYVHangup=yes
